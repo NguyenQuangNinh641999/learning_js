@@ -132,7 +132,7 @@ highlight`hoc lap trinh tai ${brand}`;
 
 
 //bai 8 modules
-import loggers, {TYPE_LOG} from '../loggers.js';
+import loggers, {TYPE_LOG} from './loggers.js';
 loggers('test', TYPE_LOG);
 //
 import * as constants from './constants.js';

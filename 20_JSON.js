@@ -48,5 +48,5 @@ sleep(1000)
     })
     .then(function(){
       console.log(2);
-      return sleep(1000);
+      // return sleep(1000);
     })
